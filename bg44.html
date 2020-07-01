@@ -1,0 +1,73 @@
+<html>
+
+
+<head>
+    <style>
+        div {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+
+        .bg1,
+        .bg2,
+        .bg3,
+        .bg4,.bg5,.bg6 {
+            background: url("../../images/07/bg4.jpg") no-repeat left top;
+        }
+
+        .bg1 {
+            background-size: auto;
+            /* 이미지 전체 오토*/
+
+        }
+
+        .bg2 {
+            background-size: 200px 150px;
+            /*가로200 세로150 줄여서 사용*/
+        }
+
+        .bg3 {
+            /*이미지전체를 포함*/
+            background-size: 60% 40%;
+            /* 가로60% 세로40% 줄여서 나타냄*/
+        }
+
+        .bg4 {
+            /*이미지전체를 포함*/
+            background-size: contain;
+        }
+        .bg5{
+            background-size: cover;  /* 요소 전체를 되도록 이미지를 확대 또는 축소*/
+        }
+        .bg6{
+            background-size: 100% 100%;  /*div 영역 안에 모든 이미지를 삽입한것ㅎ*/
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="bg1">
+
+    </div>
+    <div class="bg2">
+
+    </div>
+    <div class="bg3">
+
+    </div>
+    <div class="bg4">
+
+    </div>
+    <div class="bg5">
+
+    </div>
+    <div class="bg6">
+
+    </div>
+</body>
+
+</html>
