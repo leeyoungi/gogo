@@ -1,0 +1,84 @@
+<html>
+<head>
+    <style>
+        ul{
+            list-style: none;
+
+        }
+       li label{
+
+            float: left;
+            width: 120px;
+            text-align: right;
+          padding-right: 20px;
+          color:green;
+          font-weight: bold;
+        }
+        li{
+            margin: 5px;
+        }
+    </style>
+    </head>
+
+<body>
+
+    <h1>여름방학 특강 신청</h1>
+    <fieldset>
+
+        <legend>수강 과목</legend>
+        <ul>
+        
+         <li>
+            <label for="k">영어회화(초급)</label>
+             <input id="k" type="text" value="오전 09:00 ~ 11:00" readonly>
+            </li>   
+        
+    </ul>
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>신청자</legend>
+            <ul>
+           <li> <label class="reg" for="uname">이름</label>
+                <input type="text" id="uname" autofocus required>
+            </li><br>
+            <li><label class="reg" for="uid">학번 </label>
+                <input type="text" id="uid" placeholder="하이픈없이 입력">
+           </li><br>
+            <li>
+                <label class="reg" for="major">학과</label>
+                <select id="major">
+                    <option value="">컴퓨터공학과</option>
+                    <option value="">기계공학과</option>
+                    <option value="">전자공학과</option>
+                    <option value="">전압공학과</option>
+                    <option value="">통신공학과</option>
+
+                </select>
+            </li>
+            </ul>
+            
+            </fieldset>
+
+            <fieldset>
+                <legend>교제 주문</legend>
+                <ul>
+
+                    <li>
+                        <label for="book">교제</label>
+                        <input type="text" id="book">
+                    </li>
+                    <li>
+                        <label for="sheet">워크시트</label>
+                        <input type="text" id="sheet">
+                    </li>
+                    <li>
+                        <label for="group">단체주문</label>
+                        <input type="number" id="group" value="10" min="10" max="100" step="10">  
+                    </li>
+                </ul>
+                </fieldset>
+    </body>
+</body>
+</html>
