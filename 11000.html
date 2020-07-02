@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<style>
+
+    div{
+        width: 500px; height: 200px; margin-bottom: 10px;
+    }
+    ul{
+        list-style: none;
+
+    }
+    li{
+        width: 300px;
+        height: 300px;
+
+    }
+
+    #grad{
+        background: green;
+        background: radial-gradient(circle closest-side   at 30% 40%, white,yellow, green);
+        background: -webkit-radial-gradient(circle closest-side   at 30% 40%, white,yellow, green );
+        background: -moz-radial-gradient(circle closest-side   at 30% 40%, white,yellow, green );
+        background: -o-radial-gradient(circle closest-side   at 30% 40%, white,yellow, green );
+
+    }
+    #grad2{
+        background: green;
+        background: radial-gradient(circle closest-corner  at 30% 40%, white,yellow, green );
+        background: -webkit-radial-gradient(circle closest-corner  at 30% 40%, white,yellow, green );
+        background: -moz-radial-gradient(circle closest-corner  at 30% 40%, white,yellow, green );
+        background: -o-radial-gradient(circle closest-corner  at 30% 40%, white,yellow, green );
+
+    }
+    #grad3{
+        background: radial-gradient(circle  farthest-side   at 30% 40%, white,yellow, green );
+        background: -webkit-radial-gradient(circle   farthest-side   at 30% 40%, white,yellow, green );
+        background: -moz-radial-gradient(circle  farthest-side   at 30% 40%, white,yellow, green );
+        background: -o-radial-gradient(circle  farthest-side   at 30% 40%, white,yellow, green );
+
+    }
+
+</style>
+
+</head>
+<body>
+    <div>
+<ul>
+    <li id="grad"></li>
+    <br>
+    <li id="grad2"></li>
+    <br>
+    <li id="grad3"></li>
+</ul>
+</div>
+</body>
+
+</html>
